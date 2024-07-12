@@ -2,12 +2,12 @@
   "stats": {
     "suites": 4,
     "tests": 9,
-    "passes": 8,
+    "passes": 9,
     "pending": 0,
-    "failures": 1,
-    "start": "2024-07-09T16:20:00.494Z",
-    "end": "2024-07-09T16:20:00.720Z",
-    "duration": 226
+    "failures": 0,
+    "start": "2024-07-12T10:03:48.208Z",
+    "end": "2024-07-12T10:03:48.470Z",
+    "duration": 262
   },
   "tests": [
     {
@@ -50,13 +50,7 @@
       "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'Ok, sounds good.' to equal 'No go.'",
-        "showDiff": true,
-        "actual": "Ok, sounds good.",
-        "expected": "No go.",
-        "stack": "AssertionError: expected 'Ok, sounds good.' to equal 'No go.'\n    at Context.<anonymous> (test/indexTest.js:28:49)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
@@ -81,21 +75,7 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "should return \"No go.\" if the destination city is not NYC",
-      "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Ok, sounds good.' to equal 'No go.'",
-        "showDiff": true,
-        "actual": "Ok, sounds good.",
-        "expected": "No go.",
-        "stack": "AssertionError: expected 'Ok, sounds good.' to equal 'No go.'\n    at Context.<anonymous> (test/indexTest.js:28:49)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
@@ -128,6 +108,13 @@
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"No go.\" if the destination city is not NYC",
+      "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
